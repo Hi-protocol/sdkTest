@@ -1,9 +1,10 @@
-import React from "react";
 import { ChainId } from "@uniswap/sdk";
+import React from "react";
+
 import "./App.css";
 
 function App() {
-  console.table(ChainId);
+  console.log(ChainId);
   return (
     <div className="App">
       <div>test !!</div>
