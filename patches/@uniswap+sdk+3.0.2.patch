@@ -1,13 +1,13 @@
 diff --git a/node_modules/@uniswap/sdk/dist/constants.d.ts b/node_modules/@uniswap/sdk/dist/constants.d.ts
-index 65a9f9b..c179cb7 100644
+index 65a9f9b..03b0cb0 100644
 --- a/node_modules/@uniswap/sdk/dist/constants.d.ts
 +++ b/node_modules/@uniswap/sdk/dist/constants.d.ts
-@@ -5,7 +5,8 @@ export declare enum ChainId {
+@@ -4,8 +4,7 @@ export declare enum ChainId {
+     MAINNET = 1,
      ROPSTEN = 3,
      RINKEBY = 4,
-     GÖRLI = 5,
+-    GÖRLI = 5,
 -    KOVAN = 42
-+    KOVAN = 42,
 +    BAOBAB = 1001,
  }
  export declare enum TradeType {
